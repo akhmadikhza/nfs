@@ -1,0 +1,2 @@
+<a href="<?= base_url('user/delete/' . $user['id_user']); ?>" class="btn btn-danger btn-md mt-1 " onclick="return confirm('Are you sure you want to delete this item?');">
+    <i class="fa fa-trash"></i></a>

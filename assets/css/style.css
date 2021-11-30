@@ -1,0 +1,63 @@
+.logo_univ {
+	width: 170px;
+	height: 120px;
+}
+
+.mt_login {
+	margin-top: 55px;
+}
+.img_icon {
+	width: 30px;
+}
+
+.bawah {
+	text-align: center;
+}
+.profile-img {
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.icon_read {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+.alert-me {
+	background-color: #0c2142;
+}
+
+.image_read {
+	height: 270px;
+}
+
+/*DESKTOP VERSION*/
+
+@media (min-width: 992px) {
+	.logo_univ {
+		width: 170px;
+		height: 130px;
+	}
+	.mt_login {
+		margin-top: 70px;
+	}
+
+	.img_icon {
+		width: 30px;
+	}
+	.icon_read {
+		width: 70px;
+		margin-left: 0;
+	}
+	.profile-img {
+		height: 200px;
+	}
+	.bawah {
+		margin-left: 0;
+	}
+	.image_read {
+		height: 390px;
+	}
+} /*penutup destkop version*/
